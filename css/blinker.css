@@ -6,6 +6,10 @@
 body {
 	font-family: monospace;
 	padding: 20px;
+}
+
+#app {
+	overflow: hidden;
 	font-size: 40px;
 	white-space: nowrap;
 }
