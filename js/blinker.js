@@ -17,8 +17,8 @@
 			return 'you\'re a complete idiot!';
 		}
 	},
-	input = inputs.test1(),
-	chars = Math.floor(app.clientWidth/(46/2)),
+	input = inputs.user(),
+	chars = Math.floor(app.clientWidth/(88/2)),
 	input = (new Array(chars).join(' ').replace(/./g, ' ') + input),
 	split = input.split(''),
 	interval,
@@ -48,6 +48,6 @@
 
 	// console.log('time', time);
 	// console.log('input', input);
-	// console.log('chars', chars);
+	console.log('chars', chars);
 
 })();
