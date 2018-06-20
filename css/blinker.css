@@ -5,11 +5,15 @@
 
 body {
 	font-family: monospace;
-	padding: 20px;
 }
 
 #app {
 	overflow: hidden;
 	font-size: 80px;
 	white-space: nowrap;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
 }
