@@ -17,7 +17,7 @@
 			return 'you\'re a complete idiot!';
 		}
 	},
-	input = inputs.test1(),
+	input = inputs.user(),
 	chars = Math.floor(app.clientWidth/40),
 	input = (new Array(chars).join(' ').replace(/./g, ' ') + input),
 	split = input.split(''),
